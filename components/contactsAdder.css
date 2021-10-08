@@ -1,0 +1,36 @@
+.contactsAdder{
+    height: 300px;
+    width: 300px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    background: olive;    
+}
+.contactsAdderHeader{
+    font-size: 24px;
+}
+.contactsAdderShell{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    margin-top: 10%;            
+}
+
+.contactsAdderShell div + div{
+    margin-top: 10%;
+}
+.contactsAdderShell input{
+    outline: none;
+}
+.createButton{
+    height: 50px;
+    width: 25%;
+    margin-top: 10%;
+}
+
+
+
+
